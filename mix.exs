@@ -37,6 +37,9 @@ defmodule Wfh.Mixfile do
      {:phoenix_html, "~> 2.6"},
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
+     {:credo, "~> 0.4.5"},
+     {:excheck, "~> 0.4.1"},
+     {:triq, github: "krestenkrab/triq"},
      {:cowboy, "~> 1.0"}]
   end
 
