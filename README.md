@@ -1,5 +1,7 @@
 # Wfh
 
+[![Build Status](https://travis-ci.org/opie4624/wfh.svg?branch=master)](https://travis-ci.org/opie4624/wfh)
+
 To start your Phoenix app:
 
   * Install dependencies with `mix deps.get`
