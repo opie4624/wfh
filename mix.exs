@@ -10,6 +10,8 @@ defmodule Wfh.Mixfile do
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      aliases: aliases(),
+     test_coverage: [tool: ExCoveralls],
+     preferred_cli_env: [coveralls: :test, inch_ex: :docs],
      deps: deps()]
   end
 
@@ -42,6 +44,7 @@ defmodule Wfh.Mixfile do
      {:triq, github: "krestenkrab/triq"},
      {:ex_doc, "~> 0.12", only: :docs},
      {:inch_ex, "~> 0.2", only: :docs},
+     {:excoveralls, "~> 0.5", only: :test},
      {:cowboy, "~> 1.0"}]
   end
 

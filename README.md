@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/opie4624/wfh.svg?branch=master)](https://travis-ci.org/opie4624/wfh)
 [![Inline docs](http://inch-ci.org/github/opie4624/wfh.svg)](http://inch-ci.org/github/opie4624/wfh)
 [![Deps Status](https://beta.hexfaktor.org/badge/all/github/opie4624/wfh.svg)](https://beta.hexfaktor.org/github/opie4624/wfh)
+[![Coverage Status](https://coveralls.io/repos/github/opie4624/wfh/badge.svg?branch=master)](https://coveralls.io/github/opie4624/wfh?branch=master)
 
 To start your Phoenix app:
 
