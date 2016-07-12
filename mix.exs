@@ -40,6 +40,8 @@ defmodule Wfh.Mixfile do
      {:credo, "~> 0.4.5"},
      {:excheck, "~> 0.4.1"},
      {:triq, github: "krestenkrab/triq"},
+     {:ex_doc, "~> 0.12", only: :docs},
+     {:inch_ex, "~> 0.2", only: :docs},
      {:cowboy, "~> 1.0"}]
   end
 
